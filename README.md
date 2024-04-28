@@ -23,14 +23,14 @@ This project implements a classic Tic Tac Toe game designed to be played over a 
 
 ## Usage
 To start a game:
-1. **Launch the Server**:
+1. **Launch the Server and Client**:
    ```
    java TicTacToeLAN
    ```
-2. **Connect Players**:
-   On each player's machine, run:
+2. **Local Game**:
+   On one player's machine, run:
    ```
-   java MyClient
+   java TicTacToe
    ```
    Ensure each client is configured to connect to the host machine's IP address where `TicTacToeLAN` is running.
 
